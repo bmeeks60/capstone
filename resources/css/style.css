@@ -4,8 +4,10 @@ html {
 
 body {
   font-family: "Helvetica", sans-serif;
-  background-color: hsl(0, 0%, 85%);
+  color: hsl(0, 0%, 29%)
 }
+
+/*Header Styling*/
 
 header {
   background-color: hsl(0, 0%, 100%);
@@ -45,5 +47,23 @@ nav span a {
   display: inline-block;
   padding-left: 1rem;
   text-decoration: none;
-  color: hsl(0, 0%, 31%);
+  color: hsl(0, 0%, 29%);
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 635px) {
+  nav.mobile, nav.mobile a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+  }
+
+  .desktop, .logo {
+    display: none;
+  }
 }
