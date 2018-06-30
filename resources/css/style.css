@@ -2,6 +2,11 @@ html {
   font-size: 16px;
 }
 
+/*Build borders*/
+/*div {
+  border: red 1px solid;
+}*/
+
 body {
   font-family: "Helvetica", sans-serif;
   color: hsl(0, 0%, 29%)
@@ -71,6 +76,8 @@ nav span a {
   display: none;
 }
 
+/*Mobile Header*/
+
 @media only screen and (max-width: 635px) {
   nav.mobile, nav.mobile a {
     display: flex;
@@ -122,3 +129,44 @@ nav span a {
   font-size: 1.5rem;
   padding: 0.5rem 0;
 }
+
+/*Mobile Banner*/
+
+@media only screen and (max-width: 950px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 1rem 0;
+  }
+
+  .banner-img {
+    margin: 0;
+    width: auto;
+  }
+
+  .banner-content {
+    width: auto;
+    padding: 1rem 2rem;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.25;
+  }
+
+  .banner-content h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-bottom: 1.5rem;
+  }
+
+  .banner-content a {
+    background-color: hsl(0, 0%, 61%);
+    font-size: 1rem;
+    padding: 0.75rem 0;
+  }
+}
+
+/*Information Styling*/
