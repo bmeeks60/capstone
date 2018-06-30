@@ -29,6 +29,10 @@ h3 {
   line-height: 1.5;
 }
 
+.flex {
+  display: flex;
+}
+
 /*Header Styling*/
 
 header {
@@ -37,12 +41,10 @@ header {
 }
 
 header .container {
-  display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
@@ -53,7 +55,7 @@ header .container {
 }
 
 .colmar {
-  color: hsl (0, 0%, 29%);
+  color: hsl(0, 0%, 29%);
   font-weight: bold;
 }
 
@@ -80,7 +82,6 @@ nav span a {
 
 @media only screen and (max-width: 635px) {
   nav.mobile, nav.mobile a {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
@@ -96,7 +97,6 @@ nav span a {
 
 .banner {
   background-color: hsl(0, 0%, 85%);
-  display: flex;
 }
 
 .banner-img {
@@ -109,7 +109,6 @@ nav span a {
 }
 
 .banner-content {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 40%;
@@ -134,7 +133,6 @@ nav span a {
 
 @media only screen and (max-width: 950px) {
   .banner {
-    display: flex;
     flex-direction: column;
     padding: 0 0 1rem 0;
   }
