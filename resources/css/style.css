@@ -3,9 +3,9 @@ html {
 }
 
 /*Build borders*/
-div {
+/*div {
   border: red 1px solid;
-}
+}*/
 
 body {
   font-family: "Helvetica", sans-serif;
@@ -83,6 +83,7 @@ nav span a {
 
 @media only screen and (max-width: 950px) {
   nav.mobile, nav.mobile a {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
@@ -148,6 +149,7 @@ nav span a {
   .banner-img {
     margin: 0;
     width: auto;
+    padding: 0;
   }
 
   .banner-content {
@@ -286,10 +288,16 @@ nav span a {
   }
 
   .orientation .info-content, .campus .info-content {
-    padding: 0 0 4rem 1rem;
+    padding: 2rem 0 2rem 1rem;
   }
 
   .guest .info-content {
-    padding: 0 0 0 1rem;
+    padding: 2rem 0 0 1rem;
+  }
+
+  h3.mobile {
+    display: block;
   }
 }
+
+/*Course Styling*/
