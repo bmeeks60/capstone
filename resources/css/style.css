@@ -239,3 +239,7 @@ nav span a {
 .info-content p {
   padding-bottom: 0.75rem;
 }
+
+.guest {
+  background-color: hsl(0, 0%, 85%);
+}
