@@ -301,3 +301,41 @@ nav span a {
 }
 
 /*Course Styling*/
+
+.courses {
+  background-color: hsl(210, 5%, 92%);
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3.5rem;
+}
+
+.listing {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.item {
+  background-color: hsl(0, 0%, 100%);
+  margin: 1rem;
+  width: 30%;
+}
+
+.item-content {
+  padding: 1rem;
+}
+
+.courses h2 {
+  padding-bottom: 2rem;
+}
+
+.item img {
+  height: auto;
+  width: 100%;
+}
+
+.item-content p {
+  padding-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: lighter;
+}
