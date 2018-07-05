@@ -339,3 +339,27 @@ nav span a {
   line-height: 1.4;
   font-weight: lighter;
 }
+
+.mobile-courses {
+  display: none;
+}
+
+@media only screen and (max-width: 950px) {
+  .mobile-courses {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    width: auto;
+  }
+
+  .mobile-courses h1 {
+    padding-bottom: 0.5rem;
+    align-self: center;
+  }
+
+  .mobile-list h3{
+    background-color: hsl(0, 0%, 85%);
+    margin: 0.5rem 0;
+    padding: 1rem 0 1.5rem 1rem;
+  }
+}
