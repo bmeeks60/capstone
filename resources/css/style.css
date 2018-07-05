@@ -3,9 +3,9 @@ html {
 }
 
 /*Build borders*/
-/*div {
+div {
   border: red 1px solid;
-}*/
+}
 
 body {
   font-family: "Helvetica", sans-serif;
@@ -361,5 +361,79 @@ nav span a {
     background-color: hsl(0, 0%, 85%);
     margin: 0.5rem 0;
     padding: 1rem 0 1.5rem 1rem;
+  }
+}
+
+/*Thesis Styling*/
+
+.thesis {
+  background-color: hsl(180, 9%, 96%);
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.video {
+  flex-direction: column;
+  width: 60%;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.aside {
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.showcase {
+  background-color: hsl(0, 0%, 85%);
+}
+
+.showcase, .research {
+  align-items: center;
+}
+
+.showcase img, .research img {
+  height: auto;
+  width: 35%;
+  margin: 1rem;
+}
+
+.aside-content {
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.video-content {
+  max-width: 60%;
+  padding-left: 1.5rem;
+}
+.video-content h3 {
+  padding-bottom: 0.5rem;
+}
+
+.video-content p {
+  line-height: 1.4;
+  padding-bottom: 2rem;
+}
+
+/*Mobile Thesis*/
+@media only screen and (max-width: 950px) {
+  .mobile-exhibit {
+    display: block;
+  }
+
+  .thesis h2 {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .video {
+    width: 100%;
+    padding: 0 0 1.5rem 0;
   }
 }
