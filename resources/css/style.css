@@ -1,11 +1,7 @@
+/*Universal styling*/
 html {
   font-size: 16px;
 }
-
-/*Build borders*/
-/*div {
-  border: red 1px solid;
-}*/
 
 body {
   font-family: "Helvetica", sans-serif;
@@ -377,6 +373,10 @@ nav span a {
   padding: 2rem 0;
 }
 
+.mobile-exhibit {
+  display: none;
+}
+
 .video {
   flex-direction: column;
   width: 60%;
@@ -429,6 +429,10 @@ nav span a {
     display: block;
   }
 
+  .thesis {
+    background-color: inherit;
+  }
+
   .thesis h2 {
     padding: 2rem 0 1rem 0;
   }
@@ -455,4 +459,13 @@ footer a {
 
 #terms {
   padding-right: 1rem;
+}
+
+/*Mobile Footer*/
+
+@media only screen and (max-width: 950px) {
+  footer {
+    background-color: inherit;
+    padding: 1rem;
+  }
 }
