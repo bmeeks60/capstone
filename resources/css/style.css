@@ -3,9 +3,9 @@ html {
 }
 
 /*Build borders*/
-div {
+/*div {
   border: red 1px solid;
-}
+}*/
 
 body {
   font-family: "Helvetica", sans-serif;
@@ -423,6 +423,7 @@ nav span a {
 }
 
 /*Mobile Thesis*/
+
 @media only screen and (max-width: 950px) {
   .mobile-exhibit {
     display: block;
@@ -436,4 +437,22 @@ nav span a {
     width: 100%;
     padding: 0 0 1.5rem 0;
   }
+}
+
+/*Footer Styling*/
+
+footer {
+  justify-content: space-between;
+  padding: 1rem 1rem 3.5rem 1.5rem;
+  font-size: 0.75rem;
+  background-color: hsl(180, 9%, 96%);
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(0, 0%, 29%);
+}
+
+#terms {
+  padding-right: 1rem;
 }
